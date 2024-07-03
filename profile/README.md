@@ -28,8 +28,25 @@ Rudrakul goes beyond traditional spirituality to address the challenges of every
 - **YouTube Videos**: Access our latest video content.
 - **Personal Development Section**: Find resources and support for everyday challenges.
 
-## Join Our Kul
+## Tech Stacks
+### Frontend
+The front end is designed to offer a seamless experience for users to explore our offerings, share their spiritual and life experiences, follow each other, and access course content.
+- Next.js: For a dynamic and responsive frontend.
+- QuillJS: Integrating a rich text editor.
+- Redux Toolkit: Effective state management.
+- Tailwind CSS: Crafting a visually appealing and responsive UI.
 
+### Backend
+The backend supports the front end with robust, scalable, and maintainable code, featuring role-based authorization and JWT-based user authentication with refresh token rotation. The backend development process has been an invaluable learning experience in creating efficient, scalable schemas and optimizing query performance.
+- Spring Boot 3: A powerful Java-based backend framework.
+- MySQL: Reliable database management.
+- Hibernate: For seamless ORM integration.
+- Docker: For testing and ensuring consistent environments.
+- S3: Image storing
+- AWS: Deployment.
+- Swagger: Comprehensive API documentation.
+
+## Join Our Kul
 At Rudrakul, we believe that spirituality is not just about transcendence, but also about thriving in this realm. Join us today to embark on a transformative journey of self-discovery, personal growth, and spiritual empowerment.
 
 Let's cultivate a thriving community together, where we can learn, grow, and conquer life's challenges as one.
