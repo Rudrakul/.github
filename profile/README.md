@@ -31,20 +31,39 @@ Rudrakul goes beyond traditional spirituality to address the challenges of every
 ## Tech Stacks
 ### Frontend
 The front end is designed to offer a seamless experience for users to explore our offerings, share their spiritual and life experiences, follow each other, and access course content.
-- Next.js: For a dynamic and responsive frontend.
-- QuillJS: Integrating a rich text editor.
-- Redux Toolkit: Effective state management.
-- Tailwind CSS: Crafting a visually appealing and responsive UI.
+- **Next.js14**: For a dynamic and responsive frontend.
+- **QuillJS**: Integrating a rich text editor.
+- **Redux Toolkit**: Effective state management.
+- **Tailwind CSS**: Crafting a visually appealing and responsive UI.
+- **ShadCN**: Component library
 
 ### Backend
 The backend supports the front end with robust, scalable, and maintainable code, featuring role-based authorization and JWT-based user authentication with refresh token rotation. The backend development process has been an invaluable learning experience in creating efficient, scalable schemas and optimizing query performance.
-- Spring Boot 3: A powerful Java-based backend framework.
-- MySQL: Reliable database management.
-- Hibernate: For seamless ORM integration.
-- Docker: For testing and ensuring consistent environments.
-- S3: Image storing
-- AWS: Deployment.
-- Swagger: Comprehensive API documentation.
+
+**Authentication**
+- **JWT-Based Authentication**: Secure token-based authentication with refresh token rotation.
+- **HttpOnly Cookies**: Enhanced security by storing tokens in HttpOnly cookies.
+- **Admin Controls**: Robust moderation capabilities for admins.
+
+**Processes/Events**
+- **Admin Management**: Admins can post processes with card images, banner images, and detailed content.
+- **User Experiences**: Users can share their experiences for each process (limited to one experience per user).
+- **Security**: Unauthorized modifications to experiences are prevented through stringent security checks.
+
+**Blogs**
+- **User Contributions**: Users can post blogs in two categories: `Spiritual` and `Personal Development`.
+- **Engagement**: Users can like and comment on each other's blogs.
+- **Rich Content**: Blogs support rich text, banner images, and card images.
+
+**File Hosting and Database**
+- **Amazon S3**: Utilized for reliable and scalable file hosting.
+- **Amazon RDS (MySQL)**: Chosen as the database for efficient data management.
+
+**Miscellaneous**
+- **Swagger API**: Enabled for easy access to models and API endpoints.
+- **Postman Workspace**: An invite link is provided in the README.md for testing and collaboration.
+- **Docker Compose**: Simplified setup and local testing using Docker Compose.
+- **Automated Scripts**: Bash and batch scripts for streamlined builds and deployment to the local Docker engine.
 
 ## Join Our Kul
 At Rudrakul, we believe that spirituality is not just about transcendence, but also about thriving in this realm. Join us today to embark on a transformative journey of self-discovery, personal growth, and spiritual empowerment.
