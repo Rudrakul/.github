@@ -32,6 +32,7 @@ Rudrakul goes beyond traditional spirituality to address the challenges of every
 ### Frontend
 The front end is designed to offer a seamless experience for users to explore our offerings, share their spiritual and life experiences, follow each other, and access course content.
 - **Next.js14**: For a dynamic and responsive frontend.
+- **React Query**: For efficent api calls and caching and server side state management
 - **QuillJS**: Integrating a rich text editor.
 - **Redux Toolkit**: Effective state management.
 - **Tailwind CSS**: Crafting a visually appealing and responsive UI.
